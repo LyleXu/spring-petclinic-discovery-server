@@ -4,6 +4,12 @@ spring:
       uri: http://config-server.default.learning.petclinic.com
   application:
     name: discovery-server
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
 ---
 spring:
   config:
