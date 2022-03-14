@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://config-server-00001-private
   application:
     name: discovery-server
 ---
